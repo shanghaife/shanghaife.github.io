@@ -1,6 +1,6 @@
 index:
     home: '首页'
-    about: '英雄榜'
+    hero: '英雄榜'
     search: '搜索'
     archive: '归档'
     category: '分类：'

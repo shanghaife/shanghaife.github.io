@@ -25,9 +25,9 @@
                     <a class="userinfo-img" :href="item.blog" target="_blank"><img :src="item.avatar" alt=""></a>
                     <div class="desc">
                         <dl class="desc-info">
-                            <dd><a :href="item.blog" target="_blank">博客</a></dd>
-                            <dd><a :href="item.github" target="_blank">Github</a></dd>
-                            <dd><a :href="item.website" target="_blank">个人站点</a></dd>
+                            <dd v-if="item.blog"><a :href="item.blog" target="_blank">博客</a></dd>
+                            <dd ><a :href="item.github" target="_blank">Github</a></dd>
+                            <dd v-if="item.website"><a :href="item.website" target="_blank">个人站点</a></dd>
                         </dl>
                     </div>
                 </div>

@@ -64,6 +64,10 @@
 
     }
 
-    App.about.init()
+
+    $(function () {
+        $($('.main-nav-list-item .main-nav-list-link')[2]).addClass('current');
+        App.about.init();
+    });
 
 }(jQuery))
