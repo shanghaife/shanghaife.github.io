@@ -7,7 +7,7 @@
   },
   "scripts": {
     "server": "hexo s -p 4002",
-    "deploy": "hexo d"
+    "deploy": "hexo g && hexo d"
   },
   "dependencies": {
     "hexo": "^3.2.0",
