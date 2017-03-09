@@ -66,7 +66,7 @@
 
 
     $(function () {
-        $($('.main-nav-list-item .main-nav-list-link')[2]).addClass('current');
+        $($('.main-nav-list-item .main-nav-list-link')[3]).addClass('current');
         App.about.init();
     });
 
